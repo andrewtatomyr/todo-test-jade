@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ToDo</title>
+  <!--link rel="stylesheet" type="text/css" href="res/style.css" -->
+  <link href="res/favicon.ico" rel="shortcut icon" type="image/x-icon" >
+</head>
+<body>
+  <div >
+
+    <table id=mainform style="padding:20px; " >
+      <tr>
+        <td style="padding:20px; border-radius: 10px;  " >
+          <h1>To Do: </h1>
+        </td>
+        <td style="border-left:1px solid black; padding:20px; border-radius: 10px; ">
+          <span id="TODO" ></span>
+        </td>
+      </tr>
+    </table>
+
+    <!--form action="/api/todo" method="post" >
+      <textarea name="new_task"  placeholder="Enter a new task here" ></textarea>
+      <br>
+      <input type="submit" >
+    </form-->
+
+    <input type=text id=new_task name="new_task"  placeholder="Enter a new task here" >
+
+    <button id=add_task style="border-radius:50px; " >+</button>
+    <br>
+    <button id=delete_executed style="border-radius:50px; " >Delete executed</button>
+
+  </div>
+
+  <script src="./res/jquery-1.11.2.min.js"></script>
+  <script src="./res/jquery-cookie-master/src/jquery.cookie.js"></script>
+  <script src="core.js"></script>
+
+</body>
+</html>

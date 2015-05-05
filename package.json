@@ -1,0 +1,16 @@
+{
+  "name"          : "todo-test-node",
+  "version"       : "0.0.1",
+  "description"   :"---",
+  "main"          : "server.js",
+  "author"        : "a.t.",
+  "dependencies"  : {
+    "express"       : "*",
+    "mongoose"      : "*",
+
+    "body-parser"   : "*",
+    "cookie-parser" : "*",
+    "method-override":"*",
+    "mongodb"       : "*"
+  }
+}
